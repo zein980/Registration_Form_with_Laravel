@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+    }
+    body {
+        background: #cdcdcd;
+        font-family: 'Poppins', sans-serif;
+         display: flex;
+         height: 140vh;
+         justify-content: center;
+         align-items: center;
+         margin-top: 50px;
+         margin-bottom: 50px;
+    }
+    .container{
+        max-width: 700px;
+        width: 100%;
+        background-color:#fff;
+        padding: 25px 30px;
+        border-radius: 5px;
+       
+    }
+    h1{
+        text-align: center;
+    }
+    .container form .user-detail{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px 0 12px 0;
+        justify-content: space-between;
+    
+    }
+    form .user-detail .input-control{
+        width: calc(100% / 2 - 20px) ;
+        margin-bottom: 5px;
+      
+    }
+    .user-detail .input-control .details{
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+    }
+    .user-detail .input-control input{
+        height: 45px;
+        width: 100%;
+        outline: none;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        padding-left: 15px;
+        font-size: 16px;
+        border-bottom-width:2px ;
+        transition: all 0.3s ease;
+        
+    }
+    
+    .user-detail .input-control .btn:active{
+    
+        background-color: rgb(66, 117, 168);
+        
+        }
+    
+    .user-detail .input-control.success input:focus,.user-detail .input-control.success input:valid
+     {
+        border-color: #09c372;
+    }
+    
+    .user-detail .input-control.error {
+        border-color: #ff3860;
+    }
+    
+    .user-detail .input-control .error {
+        color: #ff3860;
+        font-size: 12px;
+        height: 13px;
+        margin-bottom: 10px;
+    }
+    form .button{
+        height: 45px;
+        margin: 25px 0;
+    }
+    form .button button{
+        height: 100%;width: 100%;
+        outline: none;
+        color: #fff;
+        border: none;
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        border-radius: 5px;
+        background-color:#14604c;
+    
+    }form .button button:hover{
+        background: black
+    }
+    #txt{ text-align: center;
+    }
+    #rd{color: #ff3860;
+    }
+    .user-detail .input-control .btn{
+        height: 50px;
+        width: 50%;
+        outline: none;
+        color: #fff;
+        border: none;
+        font-size: 10px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        border-radius: 5px;
+        background: #14604c;
+        margin-top: 10px;
+    }.user-detail .input-control button:hover{
+        background: black
+    }
+    
+    

@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'registeration' => 'Registration',
+    'txt' => 'Please fill in this form to create an account.',
+    'rd' => 'All fields are required *',
+    'full_name' => 'Full Name',
+    'user_name' => 'Username',
+    'birthdate' => 'Birthdate',
+    'phone' => 'Phone',
+    'address' => 'Address',
+    'password' => 'Password',
+    'confirm_password' => 'Confirm Password',
+    'user_image' => 'User Image',
+    'email' => 'Email',
+    'register' => 'Register',
+    'Check actors'=>'Check actors',
+    'signup' => 'Signup',
+    'about' => 'About',
+    'clients' => 'Clients',
+    'contact_us' => 'Contact us',
+    'follow_us' => 'Follow us',
+    'contact' => 'Contact',
+    'location' => 'Location',
+    'schedule' => 'Schedule',
+];
